@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="3939" y="348"/>
         </scene>
-        <!--Table View Controller-->
+        <!--State Detail Table View Controller-->
         <scene sceneID="lCh-v3-BDV">
             <objects>
-                <tableViewController id="Fxo-Gd-OT3" sceneMemberID="viewController">
+                <tableViewController id="Fxo-Gd-OT3" customClass="StateDetailTableViewController" customModule="FindMyRep" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="500" sectionHeaderHeight="28" sectionFooterHeight="28" id="QeB-yA-hUk">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,9 +100,9 @@
                                 <connections>
                                     <outlet property="districtLabel" destination="WQS-z9-6yq" id="1fU-ZU-DZV"/>
                                     <outlet property="nameLabel" destination="oks-j7-tFi" id="ix6-DK-vT6"/>
+                                    <outlet property="officeLabel" destination="msE-0a-ZZp" id="LCo-kz-tQQ"/>
                                     <outlet property="partyLabel" destination="34o-uj-OFs" id="ohJ-4C-lTd"/>
                                     <outlet property="phoneLabel" destination="6jL-HL-9iJ" id="WWF-RS-jFH"/>
-                                    <outlet property="websiteLabel" destination="msE-0a-ZZp" id="7Vi-Tr-kmP"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
